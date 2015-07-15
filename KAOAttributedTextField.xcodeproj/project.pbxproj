@@ -14,6 +14,7 @@
 		DE5111D41B5661EE0040CBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5111D31B5661EE0040CBC5 /* Images.xcassets */; };
 		DE5111D71B5661EE0040CBC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5111D51B5661EE0040CBC5 /* LaunchScreen.xib */; };
 		DE5111E31B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5111E21B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m */; };
+		DE5111EE1B5662050040CBC5 /* KAOAttributedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5111ED1B5662050040CBC5 /* KAOAttributedTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DE5111DC1B5661EE0040CBC5 /* KAOAttributedTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAOAttributedTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5111E11B5661EE0040CBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE5111E21B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAOAttributedTextFieldTests.m; sourceTree = "<group>"; };
+		DE5111EC1B5662050040CBC5 /* KAOAttributedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAOAttributedTextField.h; sourceTree = "<group>"; };
+		DE5111ED1B5662050040CBC5 /* KAOAttributedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAOAttributedTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		DE5111C51B5661EE0040CBC5 /* KAOAttributedTextField */ = {
 			isa = PBXGroup;
 			children = (
+				DE5111EC1B5662050040CBC5 /* KAOAttributedTextField.h */,
+				DE5111ED1B5662050040CBC5 /* KAOAttributedTextField.m */,
 				DE5111CA1B5661EE0040CBC5 /* AppDelegate.h */,
 				DE5111CB1B5661EE0040CBC5 /* AppDelegate.m */,
 				DE5111CD1B5661EE0040CBC5 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				DE5111CF1B5661EE0040CBC5 /* ViewController.m in Sources */,
 				DE5111CC1B5661EE0040CBC5 /* AppDelegate.m in Sources */,
 				DE5111C91B5661EE0040CBC5 /* main.m in Sources */,
+				DE5111EE1B5662050040CBC5 /* KAOAttributedTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
