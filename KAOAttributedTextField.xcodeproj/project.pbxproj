@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5111C91B5661EE0040CBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5111C81B5661EE0040CBC5 /* main.m */; };
+		DE5111CC1B5661EE0040CBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5111CB1B5661EE0040CBC5 /* AppDelegate.m */; };
+		DE5111CF1B5661EE0040CBC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5111CE1B5661EE0040CBC5 /* ViewController.m */; };
+		DE5111D21B5661EE0040CBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5111D01B5661EE0040CBC5 /* Main.storyboard */; };
+		DE5111D41B5661EE0040CBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5111D31B5661EE0040CBC5 /* Images.xcassets */; };
+		DE5111D71B5661EE0040CBC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5111D51B5661EE0040CBC5 /* LaunchScreen.xib */; };
+		DE5111E31B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5111E21B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE5111DD1B5661EE0040CBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5111BB1B5661EE0040CBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5111C21B5661EE0040CBC5;
+			remoteInfo = KAOAttributedTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE5111C31B5661EE0040CBC5 /* KAOAttributedTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAOAttributedTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5111C71B5661EE0040CBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5111C81B5661EE0040CBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5111CA1B5661EE0040CBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE5111CB1B5661EE0040CBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE5111CD1B5661EE0040CBC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE5111CE1B5661EE0040CBC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE5111D11B5661EE0040CBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE5111D31B5661EE0040CBC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE5111D61B5661EE0040CBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE5111DC1B5661EE0040CBC5 /* KAOAttributedTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAOAttributedTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5111E11B5661EE0040CBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5111E21B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAOAttributedTextFieldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5111C01B5661EE0040CBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5111D91B5661EE0040CBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5111BA1B5661EE0040CBC5 = {
+			isa = PBXGroup;
+			children = (
+				DE5111C51B5661EE0040CBC5 /* KAOAttributedTextField */,
+				DE5111DF1B5661EE0040CBC5 /* KAOAttributedTextFieldTests */,
+				DE5111C41B5661EE0040CBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5111C41B5661EE0040CBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5111C31B5661EE0040CBC5 /* KAOAttributedTextField.app */,
+				DE5111DC1B5661EE0040CBC5 /* KAOAttributedTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5111C51B5661EE0040CBC5 /* KAOAttributedTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DE5111CA1B5661EE0040CBC5 /* AppDelegate.h */,
+				DE5111CB1B5661EE0040CBC5 /* AppDelegate.m */,
+				DE5111CD1B5661EE0040CBC5 /* ViewController.h */,
+				DE5111CE1B5661EE0040CBC5 /* ViewController.m */,
+				DE5111D01B5661EE0040CBC5 /* Main.storyboard */,
+				DE5111D31B5661EE0040CBC5 /* Images.xcassets */,
+				DE5111D51B5661EE0040CBC5 /* LaunchScreen.xib */,
+				DE5111C61B5661EE0040CBC5 /* Supporting Files */,
+			);
+			path = KAOAttributedTextField;
+			sourceTree = "<group>";
+		};
+		DE5111C61B5661EE0040CBC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5111C71B5661EE0040CBC5 /* Info.plist */,
+				DE5111C81B5661EE0040CBC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE5111DF1B5661EE0040CBC5 /* KAOAttributedTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5111E21B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m */,
+				DE5111E01B5661EE0040CBC5 /* Supporting Files */,
+			);
+			path = KAOAttributedTextFieldTests;
+			sourceTree = "<group>";
+		};
+		DE5111E01B5661EE0040CBC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5111E11B5661EE0040CBC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5111C21B5661EE0040CBC5 /* KAOAttributedTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5111E61B5661EE0040CBC5 /* Build configuration list for PBXNativeTarget "KAOAttributedTextField" */;
+			buildPhases = (
+				DE5111BF1B5661EE0040CBC5 /* Sources */,
+				DE5111C01B5661EE0040CBC5 /* Frameworks */,
+				DE5111C11B5661EE0040CBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAOAttributedTextField;
+			productName = KAOAttributedTextField;
+			productReference = DE5111C31B5661EE0040CBC5 /* KAOAttributedTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5111DB1B5661EE0040CBC5 /* KAOAttributedTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5111E91B5661EE0040CBC5 /* Build configuration list for PBXNativeTarget "KAOAttributedTextFieldTests" */;
+			buildPhases = (
+				DE5111D81B5661EE0040CBC5 /* Sources */,
+				DE5111D91B5661EE0040CBC5 /* Frameworks */,
+				DE5111DA1B5661EE0040CBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5111DE1B5661EE0040CBC5 /* PBXTargetDependency */,
+			);
+			name = KAOAttributedTextFieldTests;
+			productName = KAOAttributedTextFieldTests;
+			productReference = DE5111DC1B5661EE0040CBC5 /* KAOAttributedTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5111BB1B5661EE0040CBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Kievkao;
+				TargetAttributes = {
+					DE5111C21B5661EE0040CBC5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DE5111DB1B5661EE0040CBC5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DE5111C21B5661EE0040CBC5;
+					};
+				};
+			};
+			buildConfigurationList = DE5111BE1B5661EE0040CBC5 /* Build configuration list for PBXProject "KAOAttributedTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5111BA1B5661EE0040CBC5;
+			productRefGroup = DE5111C41B5661EE0040CBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5111C21B5661EE0040CBC5 /* KAOAttributedTextField */,
+				DE5111DB1B5661EE0040CBC5 /* KAOAttributedTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5111C11B5661EE0040CBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5111D21B5661EE0040CBC5 /* Main.storyboard in Resources */,
+				DE5111D71B5661EE0040CBC5 /* LaunchScreen.xib in Resources */,
+				DE5111D41B5661EE0040CBC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5111DA1B5661EE0040CBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5111BF1B5661EE0040CBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5111CF1B5661EE0040CBC5 /* ViewController.m in Sources */,
+				DE5111CC1B5661EE0040CBC5 /* AppDelegate.m in Sources */,
+				DE5111C91B5661EE0040CBC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5111D81B5661EE0040CBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5111E31B5661EE0040CBC5 /* KAOAttributedTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5111DE1B5661EE0040CBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5111C21B5661EE0040CBC5 /* KAOAttributedTextField */;
+			targetProxy = DE5111DD1B5661EE0040CBC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE5111D01B5661EE0040CBC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5111D11B5661EE0040CBC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5111D51B5661EE0040CBC5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5111D61B5661EE0040CBC5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE5111E41B5661EE0040CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5111E51B5661EE0040CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5111E71B5661EE0040CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAOAttributedTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE5111E81B5661EE0040CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAOAttributedTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE5111EA1B5661EE0040CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KAOAttributedTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAOAttributedTextField.app/KAOAttributedTextField";
+			};
+			name = Debug;
+		};
+		DE5111EB1B5661EE0040CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KAOAttributedTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAOAttributedTextField.app/KAOAttributedTextField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5111BE1B5661EE0040CBC5 /* Build configuration list for PBXProject "KAOAttributedTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5111E41B5661EE0040CBC5 /* Debug */,
+				DE5111E51B5661EE0040CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5111E61B5661EE0040CBC5 /* Build configuration list for PBXNativeTarget "KAOAttributedTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5111E71B5661EE0040CBC5 /* Debug */,
+				DE5111E81B5661EE0040CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE5111E91B5661EE0040CBC5 /* Build configuration list for PBXNativeTarget "KAOAttributedTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5111EA1B5661EE0040CBC5 /* Debug */,
+				DE5111EB1B5661EE0040CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5111BB1B5661EE0040CBC5 /* Project object */;
+}
